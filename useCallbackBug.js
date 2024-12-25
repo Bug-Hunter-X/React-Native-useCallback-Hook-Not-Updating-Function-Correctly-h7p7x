@@ -1,0 +1,1 @@
+This error occurs when using the `useCallback` hook in React Native with a function that depends on a state variable. If the state variable changes, the function will not re-render the component correctly, leading to unexpected behavior. This usually happens when the function within `useCallback` closes over a state variable from a parent component.
